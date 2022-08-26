@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat";
+}
+/* poner texto en mayusculas */
+header img {
+  display: flex;
+  margin: 0 auto;
+
+  width: 172px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #000;
+
+  /*ponelo en negrita*/
+  font-weight: bold;
+
+  margin: 0 0 0 20px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3 , 440px);
+  margin: 0 0 0 40px;
+}
+
+.div {
+  box-shadow: 0px 0px 5px #000;
+  border-radius: 25px;
+
+  transition: all 400ms ease;
+
+  width: 400px;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  margin:  20px 0 20px 0;
+}
+.btn_enviar {
+  flex-direction: column;
+  display: flex;
+  align-items: unset;
+}
+
+.barbaImg {
+  width: 200px;
+}
+.barbaImgDiv {
+  float: left;
+}
+
+.div .textTitulo {
+  margin: 20px;
+}
+.div .textTitulo .text {
+  margin: 20px;
+}
+.div:hover {
+  box-shadow: 0px 0px 20px #000;
+}
+
+.imgPro {
+  width: 100%;
+}
+#separar {
+  margin: 20px 40px;
+}
+
+.recerbar {
+  width: 100%;
+}
+
+.contendido:first-child{
+  margin: 0 0 30px 0;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 20px;
+
+  text-align: center;
+  background: url(../img/bg.jpg);
+
+  color: #fff;
+
+  padding: 60px;
+}
